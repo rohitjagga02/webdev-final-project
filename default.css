@@ -1,0 +1,135 @@
+h1, h3{
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+}
+table, th, td{
+    border: solid 5px black;
+    border-collapse:collapse;
+    font-family: fantasy;
+}
+table{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+body{
+  background-color: #5a007b;
+  margin: 0;
+  font-family: fantasy;
+}
+p{
+  margin: 15px;
+  padding: 10px;
+}
+th{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: gray;
+  color: white;
+}
+th,td{
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+td{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+}
+.title{
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+.display{
+  text-align: center;
+}
+#container
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+
+}
+.row
+{
+  display: table-row;
+  border: medium;
+  border-color: yellow;
+}
+.cell
+{
+  display: table-cell;
+  width: 75px;
+  height: 0px;
+  border: medium;
+  border-color: yellow;
+}
+
+/* start anew */
+
+.median
+{
+  margin: 0;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  font-size: 1.25em;
+}
+.cell1, .cell2
+{
+  display: table-cell;
+  background-color: black;
+  width: 40%;
+  color: #5a007b;
+  padding: 0.15em;
+  font-size: 0.85em;
+  border: 8px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.cell1
+{
+  border-right: 4px solid black;
+}
+.cell2
+{
+  border-left: 4px solid black;
+}
+.row
+{
+  display: table-row;
+  margin-left: auto;
+  margin-right: auto;
+}
+.topRow, .secondRow
+{
+  display: table;
+  width: 100%
+}
+p{
+    display: block;
+    color: white;
+}
+a{
+  color: green;
+}
+div div div:hover{
+  background-color: green;
+}
+.fluidpic{
+  text-align: center;
+  padding-left: 15px;
+}
+form{
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 20px;
+}
